@@ -3,6 +3,7 @@ package cn.itsource.spring.day2.k_aop_ann;
 public class Emp {
 	private Long id;
 	private String name;
+	private Integer password;
 
 	public Emp() {
 	}
@@ -27,4 +28,9 @@ public class Emp {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	public Integer setPassword(Integer password){
+		this.password = password;
+	}
+
 }
