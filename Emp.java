@@ -4,6 +4,7 @@ public class Emp {
 	private Long id;
 	private String name;
 	private Integer password;
+	private String des;
 
 	public Emp() {
 	}
@@ -29,8 +30,11 @@ public class Emp {
 		this.name = name;
 	}
 	
-	public Integer setPassword(Integer password){
+	public void setPassword(Integer password){
 		this.password = password;
 	}
 
+	public Integer getPassword(){
+		return password
+	}
 }
