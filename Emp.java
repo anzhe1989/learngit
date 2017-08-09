@@ -5,6 +5,7 @@ public class Emp {
 	private String name;
 	private Integer password;
 	private String des;
+	private String des2;
 
 	public Emp() {
 	}
